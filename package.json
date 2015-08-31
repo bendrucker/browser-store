@@ -1,0 +1,41 @@
+{
+  "name": "browser-store",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Async browser storage with Node fallback",
+  "license": "MIT",
+  "repository": "bendrucker/browser-store",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "browser",
+    "storage",
+    "localStorage",
+    "sessionStorage"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "store.js",
+    "browser.js"
+  ],
+  "dependencies": {
+    "dezalgo": "~1.0.3",
+    "global": "~4.3.0",
+    "has-local-storage": "~1.0.0",
+    "has-session-storage": "~1.0.0",
+    "localStorage": "~1.0.3"
+  },
+  "browser": {
+    "./store.js": "./browser.js"
+  }
+}
