@@ -5,7 +5,7 @@ var store = require('./')
 
 test('write', function (t) {
   t.plan(1)
-  store.set('foo', {bar: 'baz'}, function (err) {
+  store.put('foo', {bar: 'baz'}, function (err) {
     if (err) return t.end(err)
     t.pass('saved')
   })
