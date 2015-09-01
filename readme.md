@@ -88,6 +88,11 @@ Clear the store.
 Type: `function`  
 Arguments: `err`
 
+## Related
+
+* [browser-async-store](https://github.com/bendrucker/browser-async-store): the engine for browser-store
+* [browser-store](https://github.com/bendrucker/browser-store): an API compatible alternative that only uses `sessionStorage`
+
 ## License
 
 MIT © [Ben Drucker](http://bendrucker.me)
