@@ -43,7 +43,7 @@ Type: `string`
 Type: `function`  
 Arguments: `err, value`
 
-#### store.put(key, value, [callback])
+#### `store.put(key, value, [callback])` -> `undefined`
 
 Add an item to the store (or overwrite an existing item). Data will be stringified as JSON.
 
@@ -63,7 +63,7 @@ Type: `any`
 Type: `function`  
 Arguments: `err`
 
-#### store.remove(key, [callback])
+#### `store.remove(key, [callback])` -> `undefined`
 
 Remove an item.
 
@@ -78,7 +78,7 @@ Type: `string`
 Type: `function`  
 Arguments: `err`
 
-#### store.clear([callback])
+#### `store.clear([callback])` -> `undefined`
 
 Clear the store.
 
