@@ -25,8 +25,7 @@
   },
   "files": [
     "index.js",
-    "store.js",
-    "browser.js"
+    "storage.js"
   ],
   "dependencies": {
     "browser-async-store": "~1.0.0",
@@ -34,8 +33,5 @@
     "has-local-storage": "~1.0.0",
     "has-session-storage": "~1.0.0",
     "localStorage": "~1.0.3"
-  },
-  "browser": {
-    "./store.js": "./browser.js"
   }
 }

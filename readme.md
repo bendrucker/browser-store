@@ -2,7 +2,7 @@
 
 > Async browser storage with Node fallback
 
-Uses local storage, then session storage. If neither are available, browser-store throws an exception.
+Uses local storage, then session storage, then an in-memory store if neither are available.
 
 
 ## Install
