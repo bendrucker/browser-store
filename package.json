@@ -30,8 +30,8 @@
   "dependencies": {
     "browser-async-store": "~1.0.0",
     "global": "~4.3.0",
-    "has-local-storage": "~1.0.0",
-    "has-session-storage": "~1.0.0",
+    "has-local-storage": "~1.0.1",
+    "has-session-storage": "~1.0.1",
     "storage-sham": "~1.0.0"
   }
 }
