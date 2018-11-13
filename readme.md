@@ -1,4 +1,4 @@
-# browser-store [![Build Status](https://travis-ci.org/bendrucker/browser-store.svg?branch=master)](https://travis-ci.org/bendrucker/browser-store)
+# browser-store [![Build Status](https://travis-ci.org/bendrucker/browser-store.svg?branch=master)](https://travis-ci.org/bendrucker/browser-store) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/browser-store.svg)](https://greenkeeper.io/)
 
 > Async browser storage with Node fallback
 
